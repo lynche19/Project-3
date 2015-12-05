@@ -1,0 +1,60 @@
+/* mystyle.css by Emma Lynch on 12/1/15 
+ * Style your pages here 
+ */
+body {
+    font-family: Tahoma, Geneva, sans-serif;
+    padding: 10px;
+    margin: 50px;
+    background-color: whitesmoke;
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    font-style: normal;
+    font-weight: bolder;
+    font-variant: small-caps;
+}
+p {
+    margin-left: 20px;
+}
+input, select {
+    margin: 10px 5px 0px 5px;
+}
+input[type=radio] {
+    margin-left: 20px;
+}
+a:link { 
+    color: #00f; 
+    text-decoration: none;
+}
+a:visited { 
+    color: #00f; 
+    text-decoration: none;
+}
+a:hover { 
+    color: #fa1; 
+    text-decoration: underline;
+}
+a:active { 
+    color: #ff0; 
+    text-decoration: underline;
+}
+footer {
+    font-size: x-small;
+    margin-top: 8em;
+}
+table {
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid black;
+}
+tr:nth-child(even) {
+    background: #CCC;
+}
+tr:nth-child(odd) {
+    background: #FFF;
+}
+td {
+    padding: 5px;
+}
